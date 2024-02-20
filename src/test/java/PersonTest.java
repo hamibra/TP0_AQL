@@ -12,14 +12,12 @@ public class PersonTest {
 
     @Test
     void testIsNotAdult() {
-        // Equivalence class: Age less than 18
         Person person = new Person("Alice", "Johnson", 15);
         assertFalse(person.isAdult());
     }
 
     @Test
     void testIsAdult() {
-        // Equivalence class: Age equal to 18
         Person person = new Person("Bob", "Smith", 18);
         assertTrue(person.isAdult());
     }

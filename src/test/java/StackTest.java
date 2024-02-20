@@ -15,6 +15,7 @@ public class StackTest {
     @Test
     void PeekTest(){
         assertThrows(IllegalStateException.class, pile::peek);
+        assertEquals("[]", pile.toString());
     }
     @Test
     void PushTest(){
