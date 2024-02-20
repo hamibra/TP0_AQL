@@ -26,8 +26,10 @@ public class StackTest {
 
     @Test
     void PopTest(){
+        pile.push(5);
         pile.pop();
         assertThrows(IllegalStateException.class, pile::peek);
+        assertEquals(0,pile.size());
     }
 
 
