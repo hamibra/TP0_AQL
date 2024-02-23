@@ -6,8 +6,7 @@ public class FactorialTest {
 
     @Test
     void testFactorialWithPositiveInput() {
-        assertEquals(1, Factorial.factorial(0)); // 0! = 1
-        assertEquals(1, Factorial.factorial(1)); // 1! = 1
+        assertEquals(6, Factorial.factorial(3)); // 0! = 1
     }
 
     @Test

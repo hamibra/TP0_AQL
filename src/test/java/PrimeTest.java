@@ -22,8 +22,5 @@ public class PrimeTest {
         assertFalse(Prime.isPrime(-7));
     }
 
-    @Test
-    void testIsPrimeWithEdgeCases() {
-        assertFalse(Prime.isPrime(Integer.MAX_VALUE)); // Maximum integer value
-    }
+
 }

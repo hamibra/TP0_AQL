@@ -19,9 +19,11 @@ public class StackTest {
     }
     @Test
     void PushTest(){
-        pile.push(5);
-        assertEquals(5,pile.peek());
-        assertEquals(1,pile.size());
+        for(int i=0;i<10;i++){
+            pile.push(i);
+        }
+        assertEquals(9,pile.peek());
+        assertEquals(10,pile.size());
     }
 
     @Test

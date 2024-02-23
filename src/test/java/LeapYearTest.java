@@ -8,7 +8,7 @@ public class LeapYearTest {
     public void leapYearsThatAreNonCenturialYears() {
         LeapYear ly = new LeapYear();
         boolean result = ly.isLeapYear(200);
-        Assertions.assertTrue(result);
+        Assertions.assertFalse(result);
     }
     @Test
     public void leapCenturialYears() {
